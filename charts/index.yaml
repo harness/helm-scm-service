@@ -3,16 +3,16 @@ entries:
   scm-service:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-08-10T16:27:55.514624+05:30"
+    created: "2022-08-10T16:54:06.793758+05:30"
     dependencies:
     - name: harness-common
       repository: https://harness.github.io/helm-common/charts
       version: 0.1.0
     description: A Helm chart for Kubernetes
-    digest: 63aa9d842ef3a2caf66c362107b78cc535674345ad5d1edd2430605ef4e008f4
+    digest: 5555c76be0d829eddaf3496bbe99deabd9d65da93065d4ea37576c83813d38fb
     name: scm-service
     type: application
     urls:
     - scm-service-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-10T16:27:55.51323+05:30"
+generated: "2022-08-10T16:54:06.792351+05:30"
