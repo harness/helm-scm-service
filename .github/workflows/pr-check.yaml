@@ -48,7 +48,7 @@ jobs:
       #     fi
 
       - name: Run chart-testing (lint)
-        working-directory: ./src/sto-manager
+        working-directory: ./src/scm-service
         run: ct lint --target-branch=develop --charts=. --chart-repos=harness-common=https://harness.github.io/helm-common --validate-maintainers=false
 
       # - name: Create kind cluster/search
